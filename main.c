@@ -49,7 +49,7 @@ void printRandoms(int lower, int upper,
     for (i = 0; i < count; i++) {
         int num = (rand() %
                    (upper - lower + 1)) + lower;
-        printf("%d\n", num);
+
         if (num == 1) {
             strcpy(r,a);
         }
@@ -103,7 +103,7 @@ void chooseRandoms(int min, int max, int load)
     for (i = 0; i < load; i++) {
         int num1 = (rand() %
                     (max - min + 1)) + min;
-        printf("%d\n", num1);
+
         if (num1 == 1) {
             strcpy(suit,d);
         }
